@@ -1,0 +1,66 @@
+package Lesson2;
+public class Calculator {
+    public static int add(int x, int y) {
+        int result = x + y;
+        return result;
+        // return x + y;
+    }
+
+    public static int sub(int x, int y) {
+        int result = x - y;
+        return result;
+        // return x - y;
+    }
+
+    public static int div(int x, int y) {
+        int result = x / y;
+        return result;
+        // return x / y;
+    }
+
+    public static int mul(int x, int y) {
+        int result = x * y;
+        return result;
+        // return x * y;
+    }
+
+    public static float add(float x, float y) {
+        return x + y;
+    }
+
+    public static double add(double x, double y) {
+        return x + y;
+    }
+
+    public static float sub(float x, float y) {
+        return x - y;
+    }
+
+    public static double sub(double x, double y) {
+        return x - y;
+    }
+
+    public static double div(double x, float y) {
+        return x / y;
+    }
+
+    public static float div(int x, float y) {
+        return x / y;
+    }
+
+    public static double div(double x, double y) {
+        return x / y;
+    }
+
+    public static float mul(float x, float y) {
+        return x * y;
+    }
+
+    public static double mul(double x, double y) {
+        return x * y;
+    }
+    public static double mul(float x, double y) {
+        return x * y;
+    }
+
+}
